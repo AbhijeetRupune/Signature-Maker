@@ -1,0 +1,77 @@
+/* body{
+    background-color: #FFFF66;
+}
+
+h1{
+    font-size: 500%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #37bb23;
+    justify-content: center;
+    text-align: center;
+    border: 10px solid black;
+
+     
+   }
+
+   #about{
+    font-size: 50px;
+    border: 10px solid #990066;
+    color: blue;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    background-color: #003366;
+   } */
+
+   header {
+    background-color: #af0d0d;
+    font-size: large;
+    
+    color: #dac9c9;
+    padding: 20px;
+    text-align: center;
+}
+
+
+header {
+    background-color: #9d0c0c;
+    font-size: large;
+    
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    height: auto;
+    border: 10%;
+
+}
+.about-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+    height: auto;
+    border: 10%;
+    text-align: left;
+    text-emphasis-color: red;
+}
+
+/* body {
+    background-image: url("instagram.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  } */
+  
+  header {
+    background-color: #333;
+  }
+  
+  .about-container {
+    background-color: #334;
+  }

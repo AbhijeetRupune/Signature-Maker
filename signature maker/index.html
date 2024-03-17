@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signature Whiteboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<h1>Signature Maker</h1>
+ 
+<body>
+    <style>
+        h1  {color: rgb(128, 0, 79);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color: blue;
+        font-size:50px;
+        width: 1500px;
+        text-align: center;
+        background-color: rgb(179, 165, 15);
+      }
+      </style>
+    <div>
+        <nav>
+            <ul style="display: flex;justify-content: space-between;align-items: center;width: 1500px;
+            list-style-type: none;padding: 0;background-color: rgb(143, 182, 93);">
+      <b><a href="index.html">Homepage </a></b><br>
+      <b><a href="About.html">About </a></b><br>
+      <b><a href="Services.html">Services </a></b><br>
+      <b><a href="connect.html" target="_blank">Contact </a></b><br>
+          </ul>
+       </nav>
+    </div>
+    <canvas id="whiteboard"></canvas>
+    <div id="toolbar">
+        <input type="range" id="thicknessRange" min="1" max="20" value="5">
+        <input type="color" id="colorPicker" value="#000000">
+        <button onclick="clearCanvas()">Clear Whiteboard</button>
+        <button onclick="downloadCanvas()">Download Sign</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+<div></div>
+<footer>
+    <p>&copy; 2024 Signature Maker. All rights reserved.</p>
+</footer>
+</html>

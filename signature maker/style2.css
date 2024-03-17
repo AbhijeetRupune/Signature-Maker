@@ -1,0 +1,51 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+form {
+	width: 300px;
+    height: 500px;
+	margin: 0 auto;
+}
+
+label {
+	display: block;
+	margin-top: 20px;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 10px;
+	margin-top: 5px;
+}
+
+
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Move the submit button to the right */
+    
+}
+.submit-button {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    /* align-content: center; */
+    /* justify-content: flex-end; */
+    /* align-items: center; */
+    /* display: flex; */
+    /* border: 10px; */
+}
+
+#feedbackForm h2 {
+    text-align: center;
+    background-color: rgb(90, 25, 25);
+    color: white;
+    font-size: 30px
+  }
+
+.hidden {
+	display: none;
+}
